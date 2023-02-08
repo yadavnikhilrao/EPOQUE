@@ -38,7 +38,7 @@ body {
     text-decoration: none;
 }
 
-#header ul {
+/* #header ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@ body {
 #header ul li a.active {
     background: var(--primary);
     color: #fff;
-}
+} */
 
 section {
     position: relative;
@@ -147,4 +147,18 @@ footer {
 footer a {
     text-decoration: none;
     color: #fff;
+}
+
+.img-logo {
+    width: 443px;
+    height: 676px;
+    margin-left: 616px;
+}
+
+@media (max-width:800px) and ( min-width:200px) {
+    .img-logo{
+        width: 237px;
+        height: 361px;
+        margin-left: 60px;
+    }
 }
