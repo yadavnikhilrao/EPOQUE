@@ -1,73 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!--==================== UNICONS ====================-->
-  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	<!--==================== UNICONS ====================-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         
-  <!--==================== CSS ====================-->
-  <link rel="stylesheet" href="../css/style.css">
+    <!--==================== CSS ====================-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/dropdown.css">
   <link rel="stylesheet" href="../css/accordion.css">
-  <link rel="stylesheet" href="../css/deparment.css">
-  <title>EPOQUE@Prastuti</title>
+    <link rel="stylesheet" href="../css/dropdown.css">
+    <title>EPOQUE@Prastuti</title>
+    
 </head>
-
 <body>
-	<!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-chevron-up scrolltop__icon'></i>
-        </a>
 
-    <!--========== HEADER ==========-->
-    <header class="l-header" id="header">
-      <nav class="nav bd-container">
-          <a href="#" class="nav__logo">EPOQUE@Prastuti</a>
+  <!--========== SCROLL TOP ==========-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-chevron-up scrolltop__icon'></i>
+  </a>
 
-          <div class="nav__menu" id="nav-menu">
-              <ul class="nav__list">
-                  <li class="nav__item"><a href="../html/index.html" class="nav__link active-link">Home</a></li>
-                  <li class="nav__item"><a href="../html/about.html" class="nav__link">About</a></li>
-                  <li class="nav__item"><a href="../html/gallery.html" class="nav__link">Gallery</a></li>
-                      <div class="dropdown">
-                          <li class="nav__item"><a class="nav__link">Events</a>
-                          <div class="dropdown-content">
-                          <a href="../html/department.html">Department Level</a>
-                          <a href="../html/institute.html">Institute Level</a>
-                          <a href="../html/inter-institute.html">Inter-Institute Level</a>
-                          </div>
-                        </div>
-                  </li>
-                      <div class="dropdown">
-                          <li class="nav__item"><a href="../html/commite.html" class="nav__link">Apex Committe</a>
-                          <div class="dropdown-content">
-                          <a href="../html/commite.html">Organizing Committe</a>
-                          <a href="../html/studentlist.html">Students Coordinators</a>
-                          </div>
-                        </div>
-                  </li>
-                  <li class="nav__item"><a href="../html/contact.html" class="nav__link">Contact us</a></li>
+    
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">EPOQUE@Prastuti</a>
 
-                  <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
-              </ul>
-          </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="../html/index.html" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="../html/about.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="../html/gallery.html" class="nav__link">Gallery</a></li>
+                            <div class="dropdown">
+                                <li class="nav__item"><a class="nav__link">Events</a>
+                                <div class="dropdown-content">
+                                <a href="../html/department.html">Department Level</a>
+                                <a href="../html/institute.html">Institute Level</a>
+                                <a href="../html/inter-institute.html">Inter-Institute Level</a>
+                                </div>
+                              </div>
+                        </li>
+                            <div class="dropdown">
+                                <li class="nav__item"><a href="../html/commite.html" class="nav__link">Apex Committe</a>
+                                <div class="dropdown-content">
+                                <a href="../html/commite.html">Organizing Committe</a>
+                                <a href="../html/studentlist.html">Students Coordinators</a>
+                                </div>
+                              </div>
+                        </li>
+                        <li class="nav__item"><a href="../html/contact.html" class="nav__link">Contact us</a></li>
 
-          <div class="nav__toggle" id="nav-toggle">
-              <i class='bx bx-menu'></i>
-          </div>
-      </nav>
-  </header>
-  <br><br><br><br><br><br>
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+    <!-- partial:index.partial.html -->
+    <section id="top">
+          <img src="../images/bg_1.jpg" id="bg" />
+          <h2 id="text">Department Level Events</h2>
+    </section>
   <section class="home" id="home">
     <div class="home__container bd-container bd-grid">
         <div class="home__data">
-            <h1 class="home__title" >Institute Level</h1>
-           
-            
+            <h1 class="home__title" >Events</h1>
         </div>
-
         <img src="images/about.png" alt="" class="home__img" style="max-width: 350px;">
     </div>
 </section>
@@ -177,11 +183,11 @@
 
   <script type="text/javascript" src="../js/department.min.js"></script>
   <img src="assets/img/about.jpg" alt="" class="about__img">
-  <script type="text/javascript" src="../js/main.js"></script>
 
-<script>
-  new Accordion('.accordion-container');
-</script>
 
+    <script type="text/javascript" src="../js/main.js"></script>
+    <script>
+        new Accordion('.accordion-container');
+      </script>
 </body>
 </html>
