@@ -94,10 +94,10 @@ section img {
 
 section #text {
     position: absolute;
-    color: var(--primary);
-    font-size: 6vw;
+    color: #d1c31df2;
+    font-size: 4vw;
     text-align: center;
-    line-height: .55em;
+    line-height: 3.55em;
     font-family: 'Rancho', cursive;
     transform: translatey(-50%);
 }
